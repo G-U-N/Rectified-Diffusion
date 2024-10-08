@@ -138,3 +138,13 @@ bash run_phasedxl.sh
 ### Contact
 
 If you have any questions, please feel free to contact the us: Fu-Yun Wang (fywang@link.cuhk.edu.hk)
+
+
+
+### Further Reading
+
+1. [Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow](https://arxiv.org/abs/2209.03003)
+2. [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
+3. [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206)
+4. [Improving the Training of Rectified Flows](https://arxiv.org/abs/2405.20320)
+5. [PeRFlow: Piecewise Rectified Flow as Universal Plug-and-Play Accelerator](https://arxiv.org/abs/2405.07510)
