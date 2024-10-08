@@ -94,7 +94,8 @@ python -m pytorch_fid coco_5k results/phasedxl/5k/cfg1.5_4step
 
 ```
 
-**Reproduced results**
+**Reproduced results on FID on COCO-2017**
+Lower is better.
 | Configuration     |         NFE                | Reproduced | Reported |
 |----------------------------|-----------|------------|----------|
 | `Rectified Diffusion`            |    1         | 27.1       | 27.26    |
