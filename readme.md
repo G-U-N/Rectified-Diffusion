@@ -27,7 +27,7 @@ fywang@link.cuhk.edu.hk
 
 **Rectified Diffusion identifies the straighness is not the essential training target and extends the scope rectified flow.**
 
-<img src="./assets/rectified-diffusion.png" alt="fm-curve" style="zoom:50%;" />
+<img src="./assets/rectified-diffusion.png" alt="fm-curve" style="zoom:30%;" />
 
 
 
