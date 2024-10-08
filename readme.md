@@ -137,7 +137,7 @@ bash run_phasedxl.sh
 
 ### Contact
 
-If you have any questions, please feel free to contact the us: Fu-Yun Wang (fywang@link.cuhk.edu.hk)
+If you have any questions, please feel free to contact us: Fu-Yun Wang (fywang@link.cuhk.edu.hk) and Ling Yang (yangling0818@163.com).
 
 
 
