@@ -24,7 +24,7 @@ Hongsheng Li<sup>1</sup>*
 
 ### Introduction
 
-**Rectified Diffusion identifies the straighness is not the essential training target and extends the scope rectified flow.**
+**TLDR: Rectified Diffusion identifies the straighness is not the essential training target and extends the scope of rectified flow.**
 
 <img src="./assets/rectified-diffusion.png" alt="fm-curve" style="zoom:30%;" />
 
