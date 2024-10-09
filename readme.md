@@ -9,6 +9,7 @@ Hongsheng Li<sup>1</sup>*
 
 <sup>1</sup>CUHK-MMLab   <sup>2</sup>Peking University   <sup>3</sup>Princeton University
 
+[[Technical Report](https://github.com/G-U-N/Rectified-Diffusion/blob/master/report/Rectified-Diffusion-1009.pdf)]
 </div>
 
 
