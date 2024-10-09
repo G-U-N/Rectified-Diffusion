@@ -96,6 +96,10 @@ python -m pytorch_fid coco_5k results/phasedxl/5k/cfg1.5_4step
 
 ```
 
+**Comparison**
+
+<img src="./assets/evaluation.png" alt="fm-curve" style="zoom:50%;" />
+
 **Reproduced results on FID on COCO-2017:** Lower is better.
 | Configuration     |         NFE                | Reproduced | Reported |
 |----------------------------|-----------|------------|----------|
