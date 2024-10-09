@@ -58,10 +58,12 @@ git clone https://huggingface.co/madebyollin/sdxl-vae-fp16-fix
 # download weights
 git clone https://huggingface.co/wangfuyun/Rectified-Diffusion
 # including 4 weights
-- https://huggingface.co/wangfuyun/Rectified-Diffusion/rd.ckpt
-- https://huggingface.co/wangfuyun/Rectified-Diffusion/cm.ckpt
-- https://huggingface.co/wangfuyun/Rectified-Diffusion/phased.ckpt
-- https://huggingface.co/wangfuyun/Rectified-Diffusion/phased.xl.ckpt
+- https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/rd.ckpt
+- https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/cm.ckpt
+- https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/phased.ckpt
+- https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/phasedxl.ckpt
+# you can download the weights through wget -c
+wget -c https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/rd.ckpt
 
 # download coco-2017
 wget -c http://images.cocodataset.org/zips/val2017.zip
