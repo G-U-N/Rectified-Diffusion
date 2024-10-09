@@ -119,7 +119,7 @@ python -m pytorch_fid coco_5k results/phasedxl/5k/cfg1.5_4step
 
 
 bash gen_pairs.sh # generate 1.6M noise-sample (latents) pairs pair
-# Since the authors of InstaFlow does not specify the prompts used, we choose random sampled 1.6M prompts. 
+# Since the authors of InstaFlow did not specify the prompts used, we choosed random sampled 1.6M prompts. 
 # You might find the following links to be useful
 # https://huggingface.co/datasets/MuhammadHanif/Laion_aesthetics_5plus_1024_33M
 # https://huggingface.co/datasets/laion/laion2B-en-aesthetic
