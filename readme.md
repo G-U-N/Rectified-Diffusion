@@ -41,7 +41,7 @@ Hongsheng Li<sup>1</sup>*
 
 **Install environment**
 ```shell
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```
 **Download public model weights**
 ```
