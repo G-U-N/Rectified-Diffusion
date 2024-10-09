@@ -131,13 +131,13 @@ bash run.sh # train the rectified diffusion models
 
 **Train Rectified Diffusion (Phased) on Stabel Diffusion v1-5**
 ```shell
-# you should first donwload a subset of laion-2b for training. I use a 500k images for training.
+# you should first donwload a subset of laion-2b for training. I use a set of 500k images for training.
 bash run_phased.sh
 ```
 
 **Train Rectified Diffusion (Phased) on Stabel Diffusion XL**
 ```shell
-# you should first donwload a subset of laion-2b for training. I use a 500k images for training.
+# you should first donwload a subset of laion-2b for training. I use a set of 500k images for training.
 bash run_phasedxl.sh
 ```
 
