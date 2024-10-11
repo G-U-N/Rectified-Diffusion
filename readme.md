@@ -15,11 +15,13 @@ Hongsheng Li<sup>1</sup>*
 
 
 ```bibtex
-@article{wang2024rectified,
-  title={Rectified Diffusion},
-  author={Wang, Fu-Yun and Yang, Ling and Huang, Zhaoyang and Wang, Mengdi and Li, Hongsheng},
-  journal={arXiv preprint},
-  year={2024}
+@article{wang2024rectifieddiffusionstraightnessneed,
+      title={Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow}, 
+      author={Fu-Yun Wang and Ling Yang and Zhaoyang Huang and Mengdi Wang and Hongsheng Li},
+      year={2024},
+      eprint={2410.07303},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2410.07303}, 
 }
 ```
 
