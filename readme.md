@@ -38,6 +38,8 @@ Hongsheng Li<sup>1</sup>*
 
 <img src="./assets/fids.png" alt="fm-curve" style="zoom:50%;" />
 
+**Generation quality comparison:** 
+<img src="./assets/images.png" alt="fm-curve" style="zoom:50%;" />
 
 
 ### Set up
