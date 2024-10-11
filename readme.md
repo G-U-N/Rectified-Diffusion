@@ -1,6 +1,6 @@
 <div align="center">
 
-## Rectified Diffusion: Straightness is Not Your Need
+## Rectified Diffusion: Straightness Is Not Your Need
 
 
 
