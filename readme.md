@@ -66,6 +66,7 @@ git clone https://huggingface.co/wangfuyun/Rectified-Diffusion
 - https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/phasedxl.ckpt
 # you can download the weights through wget -c
 wget -c https://huggingface.co/wangfuyun/Rectified-Diffusion/resolve/main/weights/rd.ckpt
+# Replace huggingface.co with hf-mirror.com if you are blocked.
 
 # download coco-2017
 wget -c http://images.cocodataset.org/zips/val2017.zip
