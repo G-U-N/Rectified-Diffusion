@@ -6,8 +6,8 @@ from PIL import Image
 import os
 from tqdm import tqdm
 
-# from pipeline import StableDiffusionPipeline
-from diffusers import StableDiffusionPipeline
+from pipeline import StableDiffusionPipeline
+# from diffusers import StableDiffusionPipeline
 import torch
 from safetensors.torch import load_file
 from diffusers import DPMSolverMultistepScheduler, DDIMScheduler, EulerDiscreteScheduler
