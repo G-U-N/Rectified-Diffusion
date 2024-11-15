@@ -2,7 +2,7 @@ PREFIX=rectified_diffusion_phased_cfg3
 MODEL_DIR="/mnt/wangfuyun/weights/stable-diffusion-v1-5"
 OUTPUT_DIR="outputs_formal/$PREFIX"
 PROJ_NAME="$PREFIX"
-accelerate launch --main_process_port 29501  train_split.py \
+accelerate launch --main_process_port 29501  train_phased.py \
     --pretrained_teacher_model=$MODEL_DIR \
     --output_dir=$OUTPUT_DIR \
     --tracker_project_nam=$PROJ_NAME \
