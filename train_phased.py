@@ -1012,16 +1012,7 @@ def main(args):
                 )
 
                 prompt_embeds = encoded_text.pop("prompt_embeds")
-                mask_text = torch.zeros(
-                    (prompt_embeds.shape[0], 1, 1),
-                    dtype=prompt_embeds.dtype,
-                    device=prompt_embeds.device,
-                )
-                for i in range(prompt_embeds.shape[0]):
-                    mask_text[i] = 1 if random.random() > args.drop_ratio else 0
-                prompt_embeds = (
-                    mask_text * prompt_embeds + (1 - mask_text) * uncond_prompt_embeds
-                )
+
 
                 tmp_timesteps = start_timesteps
                 tmp_model_input = noisy_model_input
@@ -1043,7 +1034,8 @@ def main(args):
                                 alpha_schedule,
                                 sigma_schedule,
                             )
-                            if args.not_apply_cfg_solver:
+                            # if args.not_apply_cfg_solver:
+                            if False:
                                 uncond_teacher_output = cond_teacher_output
                                 uncond_pred_x0 = cond_pred_x0
                             else:
