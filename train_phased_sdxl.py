@@ -1172,7 +1172,8 @@ def main(args):
                                 sigma_schedule,
                             )
 
-                            if args.not_apply_cfg_solver:
+                            # if args.not_apply_cfg_solver:
+                            if False:
                                 uncond_teacher_output = cond_teacher_output
                                 uncond_pred_x0 = cond_pred_x0
                             else:
