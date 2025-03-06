@@ -13,7 +13,6 @@ from safetensors.torch import load_file
 from diffusers import DPMSolverMultistepScheduler, DDIMScheduler, EulerDiscreteScheduler
 import time
 import numpy as np
-from mcd_scheduling import TCDScheduler
 
 import json
 
