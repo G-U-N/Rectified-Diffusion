@@ -207,8 +207,10 @@ def generate_batch_images(
                 f"latent_{device_id}_{batch_idx * batch_size + img_idx:08d}.pth",
             )
             assert not generate_latents.isnan().any()
-            torch.save(init_noise, noise_path)
-            torch.save(generate_latent, latent_path)
+
+            # add clone here to reduce storage cost!
+            torch.save(init_noise.clone(), noise_path)
+            torch.save(generate_latent.clone(), latent_path)
 
 
 def generate_imgs(
